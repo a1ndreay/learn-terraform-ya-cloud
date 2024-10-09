@@ -32,6 +32,11 @@ variable "network_id" {
   default = ""
 }
 
+variable "subnet_id" {
+  type = string
+  default = ""
+}
+
 variable "bucket" {
   type    = string
   default = ""
